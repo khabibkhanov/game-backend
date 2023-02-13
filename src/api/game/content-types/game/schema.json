@@ -4,7 +4,8 @@
   "info": {
     "singularName": "game",
     "pluralName": "games",
-    "displayName": "games"
+    "displayName": "games",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,6 +18,32 @@
       "unique": true,
       "maxLength": 40,
       "minLength": 4
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "reviews": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 50
+    },
+    "release_date": {
+      "type": "date"
+    },
+    "publisher_name": {
+      "type": "string"
+    },
+    "purchase": {
+      "type": "boolean",
+      "default": false
+    },
+    "game_picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
