@@ -45,6 +45,23 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "languages": {
+      "type": "customField",
+      "options": [
+        "english",
+        "russian",
+        "italian",
+        "chiniese",
+        ""
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "genres": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::genre.genre",
+      "inversedBy": "games"
     }
   }
 }
