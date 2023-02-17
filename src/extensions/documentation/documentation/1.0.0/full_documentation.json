@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-02-15T06:21:40.817Z"
+    "x-generation-date": "2023-02-17T11:16:26.849Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1440,6 +1440,16 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "min_requirements": {
+                "type": "array",
+                "items": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/OperationSystemSystem"
+                    }
+                  ]
+                }
               }
             }
           }
@@ -2790,6 +2800,27 @@
                                               }
                                             }
                                           },
+                                          "min_requirements": {
+                                            "type": "array",
+                                            "items": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "asda": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -3137,6 +3168,16 @@
                       }
                     }
                   }
+                }
+              },
+              "min_requirements": {
+                "type": "array",
+                "items": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/OperationSystemSystem"
+                    }
+                  ]
                 }
               },
               "createdAt": {
@@ -4530,6 +4571,27 @@
                                               }
                                             }
                                           },
+                                          "min_requirements": {
+                                            "type": "array",
+                                            "items": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "asda": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -4877,6 +4939,16 @@
                       }
                     }
                   }
+                }
+              },
+              "min_requirements": {
+                "type": "array",
+                "items": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/OperationSystemSystem"
+                    }
+                  ]
                 }
               },
               "createdAt": {
@@ -6303,6 +6375,27 @@
                                               }
                                             }
                                           },
+                                          "min_requirements": {
+                                            "type": "array",
+                                            "items": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "asda": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -6650,6 +6743,16 @@
                       }
                     }
                   }
+                }
+              },
+              "min_requirements": {
+                "type": "array",
+                "items": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/OperationSystemSystem"
+                    }
+                  ]
                 }
               },
               "createdAt": {
@@ -8043,6 +8146,27 @@
                                               }
                                             }
                                           },
+                                          "min_requirements": {
+                                            "type": "array",
+                                            "items": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "asda": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -8392,6 +8516,16 @@
                   }
                 }
               },
+              "min_requirements": {
+                "type": "array",
+                "items": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/OperationSystemSystem"
+                    }
+                  ]
+                }
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -8445,6 +8579,20 @@
           },
           "meta": {
             "type": "object"
+          }
+        }
+      },
+      "OperationSystemSystem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "__component": {
+            "type": "string"
+          },
+          "asda": {
+            "type": "string"
           }
         }
       },
@@ -9490,6 +9638,27 @@
                                     }
                                   }
                                 }
+                              }
+                            },
+                            "min_requirements": {
+                              "type": "array",
+                              "items": {
+                                "anyOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "asda": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                ]
                               }
                             },
                             "createdAt": {
@@ -10595,6 +10764,27 @@
                                     }
                                   }
                                 }
+                              }
+                            },
+                            "min_requirements": {
+                              "type": "array",
+                              "items": {
+                                "anyOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "asda": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                ]
                               }
                             },
                             "createdAt": {
@@ -11735,6 +11925,27 @@
                                 }
                               }
                             },
+                            "min_requirements": {
+                              "type": "array",
+                              "items": {
+                                "anyOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "asda": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -12838,6 +13049,27 @@
                                     }
                                   }
                                 }
+                              }
+                            },
+                            "min_requirements": {
+                              "type": "array",
+                              "items": {
+                                "anyOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "asda": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                ]
                               }
                             },
                             "createdAt": {

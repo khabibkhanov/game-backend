@@ -62,6 +62,12 @@
       "relation": "manyToMany",
       "target": "api::genre.genre",
       "inversedBy": "games"
+    },
+    "min_requirements": {
+      "type": "dynamiczone",
+      "components": [
+        "operation-system.system"
+      ]
     }
   }
 }
