@@ -1,7 +1,8 @@
 {
-  "collectionName": "components_minimal_min_requirements",
+  "collectionName": "components_recommended_recommended_requirements",
   "info": {
-    "displayName": "min_requirements"
+    "displayName": "recommended",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,9 +10,6 @@
       "type": "string"
     },
     "graphic_card": {
-      "type": "string"
-    },
-    "ram": {
       "type": "string"
     }
   }

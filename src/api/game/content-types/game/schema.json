@@ -66,9 +66,11 @@
     "system_requirements": {
       "type": "dynamiczone",
       "components": [
-        "windows.windows",
-        "macos.mac-os",
-        "linux.linux"
+        "operation-system.linux",
+        "operation-system.mac-os",
+        "operation-system.windows",
+        "requirements.min-requirements",
+        "requirements.recommended-requirements"
       ]
     }
   }
