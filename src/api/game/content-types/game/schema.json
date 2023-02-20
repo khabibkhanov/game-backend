@@ -63,10 +63,12 @@
       "target": "api::genre.genre",
       "inversedBy": "games"
     },
-    "min_requirements": {
+    "system_requirements": {
       "type": "dynamiczone",
       "components": [
-        "operation-system.system"
+        "windows.windows",
+        "macos.mac-os",
+        "linux.linux"
       ]
     }
   }

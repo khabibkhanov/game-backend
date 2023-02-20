@@ -1,12 +1,9 @@
 {
   "collectionName": "components_operation_system_systems",
   "info": {
-    "displayName": "System"
+    "displayName": "System",
+    "description": ""
   },
   "options": {},
-  "attributes": {
-    "asda": {
-      "type": "string"
-    }
-  }
+  "attributes": {}
 }

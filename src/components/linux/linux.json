@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_linux_linuxes",
+  "info": {
+    "displayName": "linux",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "operation_system": {
+      "type": "string",
+      "default": "null"
+    },
+    "processor": {
+      "type": "string",
+      "default": "null"
+    },
+    "memory": {
+      "type": "string",
+      "default": "null"
+    },
+    "graphics": {
+      "type": "string",
+      "default": "null"
+    },
+    "storage": {
+      "type": "string",
+      "default": "null"
+    },
+    "sound_card": {
+      "type": "string",
+      "required": false,
+      "default": "null"
+    }
+  }
+}

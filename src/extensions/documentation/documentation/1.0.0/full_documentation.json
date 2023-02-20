@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-02-17T11:16:26.849Z"
+    "x-generation-date": "2023-02-20T05:48:55.158Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1441,12 +1441,18 @@
                   "example": "string or id"
                 }
               },
-              "min_requirements": {
+              "system_requirements": {
                 "type": "array",
                 "items": {
                   "anyOf": [
                     {
-                      "$ref": "#/components/schemas/OperationSystemSystem"
+                      "$ref": "#/components/schemas/WindowsWindows"
+                    },
+                    {
+                      "$ref": "#/components/schemas/MacosMacOs"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LinuxLinux"
                     }
                   ]
                 }
@@ -2800,7 +2806,7 @@
                                               }
                                             }
                                           },
-                                          "min_requirements": {
+                                          "system_requirements": {
                                             "type": "array",
                                             "items": {
                                               "anyOf": [
@@ -2813,7 +2819,77 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "asda": {
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "DirectX": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -3170,12 +3246,18 @@
                   }
                 }
               },
-              "min_requirements": {
+              "system_requirements": {
                 "type": "array",
                 "items": {
                   "anyOf": [
                     {
-                      "$ref": "#/components/schemas/OperationSystemSystem"
+                      "$ref": "#/components/schemas/WindowsWindows"
+                    },
+                    {
+                      "$ref": "#/components/schemas/MacosMacOs"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LinuxLinux"
                     }
                   ]
                 }
@@ -4571,7 +4653,7 @@
                                               }
                                             }
                                           },
-                                          "min_requirements": {
+                                          "system_requirements": {
                                             "type": "array",
                                             "items": {
                                               "anyOf": [
@@ -4584,7 +4666,77 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "asda": {
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "DirectX": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -4941,12 +5093,18 @@
                   }
                 }
               },
-              "min_requirements": {
+              "system_requirements": {
                 "type": "array",
                 "items": {
                   "anyOf": [
                     {
-                      "$ref": "#/components/schemas/OperationSystemSystem"
+                      "$ref": "#/components/schemas/WindowsWindows"
+                    },
+                    {
+                      "$ref": "#/components/schemas/MacosMacOs"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LinuxLinux"
                     }
                   ]
                 }
@@ -6375,7 +6533,7 @@
                                               }
                                             }
                                           },
-                                          "min_requirements": {
+                                          "system_requirements": {
                                             "type": "array",
                                             "items": {
                                               "anyOf": [
@@ -6388,7 +6546,77 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "asda": {
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "DirectX": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -6745,12 +6973,18 @@
                   }
                 }
               },
-              "min_requirements": {
+              "system_requirements": {
                 "type": "array",
                 "items": {
                   "anyOf": [
                     {
-                      "$ref": "#/components/schemas/OperationSystemSystem"
+                      "$ref": "#/components/schemas/WindowsWindows"
+                    },
+                    {
+                      "$ref": "#/components/schemas/MacosMacOs"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LinuxLinux"
                     }
                   ]
                 }
@@ -8146,7 +8380,7 @@
                                               }
                                             }
                                           },
-                                          "min_requirements": {
+                                          "system_requirements": {
                                             "type": "array",
                                             "items": {
                                               "anyOf": [
@@ -8159,7 +8393,77 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "asda": {
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "DirectX": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -8516,12 +8820,18 @@
                   }
                 }
               },
-              "min_requirements": {
+              "system_requirements": {
                 "type": "array",
                 "items": {
                   "anyOf": [
                     {
-                      "$ref": "#/components/schemas/OperationSystemSystem"
+                      "$ref": "#/components/schemas/WindowsWindows"
+                    },
+                    {
+                      "$ref": "#/components/schemas/MacosMacOs"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LinuxLinux"
                     }
                   ]
                 }
@@ -8582,7 +8892,7 @@
           }
         }
       },
-      "OperationSystemSystem": {
+      "WindowsWindows": {
         "type": "object",
         "properties": {
           "id": {
@@ -8591,7 +8901,77 @@
           "__component": {
             "type": "string"
           },
-          "asda": {
+          "operation_system": {
+            "type": "string"
+          },
+          "processor": {
+            "type": "string"
+          },
+          "memory": {
+            "type": "string"
+          },
+          "graphics": {
+            "type": "string"
+          },
+          "DirectX": {
+            "type": "string"
+          },
+          "storage": {
+            "type": "string"
+          }
+        }
+      },
+      "MacosMacOs": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "__component": {
+            "type": "string"
+          },
+          "operation_system": {
+            "type": "string"
+          },
+          "processor": {
+            "type": "string"
+          },
+          "memory": {
+            "type": "string"
+          },
+          "graphics": {
+            "type": "string"
+          },
+          "storage": {
+            "type": "string"
+          }
+        }
+      },
+      "LinuxLinux": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "__component": {
+            "type": "string"
+          },
+          "operation_system": {
+            "type": "string"
+          },
+          "processor": {
+            "type": "string"
+          },
+          "memory": {
+            "type": "string"
+          },
+          "graphics": {
+            "type": "string"
+          },
+          "storage": {
+            "type": "string"
+          },
+          "sound_card": {
             "type": "string"
           }
         }
@@ -9640,7 +10020,7 @@
                                 }
                               }
                             },
-                            "min_requirements": {
+                            "system_requirements": {
                               "type": "array",
                               "items": {
                                 "anyOf": [
@@ -9653,7 +10033,77 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "asda": {
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "DirectX": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
                                         "type": "string"
                                       }
                                     }
@@ -10766,7 +11216,7 @@
                                 }
                               }
                             },
-                            "min_requirements": {
+                            "system_requirements": {
                               "type": "array",
                               "items": {
                                 "anyOf": [
@@ -10779,7 +11229,77 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "asda": {
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "DirectX": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
                                         "type": "string"
                                       }
                                     }
@@ -11925,7 +12445,7 @@
                                 }
                               }
                             },
-                            "min_requirements": {
+                            "system_requirements": {
                               "type": "array",
                               "items": {
                                 "anyOf": [
@@ -11938,7 +12458,77 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "asda": {
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "DirectX": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
                                         "type": "string"
                                       }
                                     }
@@ -13051,7 +13641,7 @@
                                 }
                               }
                             },
-                            "min_requirements": {
+                            "system_requirements": {
                               "type": "array",
                               "items": {
                                 "anyOf": [
@@ -13064,7 +13654,77 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "asda": {
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "DirectX": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
                                         "type": "string"
                                       }
                                     }

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_windows_windows",
+  "info": {
+    "displayName": "windows"
+  },
+  "options": {},
+  "attributes": {
+    "operation_system": {
+      "type": "string",
+      "default": "null",
+      "required": false
+    },
+    "processor": {
+      "type": "string",
+      "default": "null",
+      "required": false
+    },
+    "memory": {
+      "type": "string",
+      "required": false,
+      "default": "null"
+    },
+    "graphics": {
+      "type": "string",
+      "required": false,
+      "default": "null"
+    },
+    "DirectX": {
+      "type": "string",
+      "default": "null"
+    },
+    "storage": {
+      "type": "string",
+      "required": false,
+      "default": "null"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_macos_mac_os",
+  "info": {
+    "displayName": "MacOS"
+  },
+  "options": {},
+  "attributes": {
+    "operation_system": {
+      "type": "string",
+      "required": false,
+      "default": "null"
+    },
+    "processor": {
+      "type": "string",
+      "default": "null"
+    },
+    "memory": {
+      "type": "string",
+      "default": "null"
+    },
+    "graphics": {
+      "type": "string",
+      "default": "null"
+    },
+    "storage": {
+      "type": "string",
+      "default": "null"
+    }
+  }
+}

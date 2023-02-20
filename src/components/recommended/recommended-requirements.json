@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_recommended_recommended_requirements",
+  "info": {
+    "displayName": "recommended_requirements"
+  },
+  "options": {},
+  "attributes": {
+    "system": {
+      "type": "string"
+    },
+    "graphic_card": {
+      "type": "string"
+    }
+  }
+}
