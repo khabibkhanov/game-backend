@@ -72,6 +72,12 @@
         "requirements.min-requirements",
         "requirements.recommended-requirements"
       ]
+    },
+    "age_rating": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::age-rating.age-rating",
+      "inversedBy": "games"
     }
   }
 }

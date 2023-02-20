@@ -16,11 +16,18 @@
       "type": "string"
     },
     "age_rating_pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "games": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::game.game",
+      "mappedBy": "age_rating"
     }
   }
 }
