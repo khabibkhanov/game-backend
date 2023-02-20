@@ -33,6 +33,14 @@
     "additional_notes": {
       "type": "string",
       "default": "null"
+    },
+    "network": {
+      "type": "string",
+      "default": "null"
+    },
+    "Bit64": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

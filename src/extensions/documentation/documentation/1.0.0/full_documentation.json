@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-02-20T06:55:03.731Z"
+    "x-generation-date": "2023-02-20T07:21:26.585Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2842,6 +2842,9 @@
                                                     },
                                                     "sound_card": {
                                                       "type": "string"
+                                                    },
+                                                    "additional_notes": {
+                                                      "type": "string"
                                                     }
                                                   }
                                                 },
@@ -2867,6 +2870,9 @@
                                                       "type": "string"
                                                     },
                                                     "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -2896,6 +2902,9 @@
                                                       "type": "string"
                                                     },
                                                     "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -2929,6 +2938,12 @@
                                                     },
                                                     "additional_notes": {
                                                       "type": "string"
+                                                    },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "Bit64": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 },
@@ -2941,11 +2956,32 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "system": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
-                                                    "graphic_card": {
+                                                    "graphics": {
                                                       "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "directx": {
+                                                      "type": "string"
+                                                    },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
+                                                      "type": "string"
+                                                    },
+                                                    "bit64": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 }
@@ -4744,6 +4780,9 @@
                                                     },
                                                     "sound_card": {
                                                       "type": "string"
+                                                    },
+                                                    "additional_notes": {
+                                                      "type": "string"
                                                     }
                                                   }
                                                 },
@@ -4769,6 +4808,9 @@
                                                       "type": "string"
                                                     },
                                                     "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -4798,6 +4840,9 @@
                                                       "type": "string"
                                                     },
                                                     "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -4831,6 +4876,12 @@
                                                     },
                                                     "additional_notes": {
                                                       "type": "string"
+                                                    },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "Bit64": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 },
@@ -4843,11 +4894,32 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "system": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
-                                                    "graphic_card": {
+                                                    "graphics": {
                                                       "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "directx": {
+                                                      "type": "string"
+                                                    },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
+                                                      "type": "string"
+                                                    },
+                                                    "bit64": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 }
@@ -6679,6 +6751,9 @@
                                                     },
                                                     "sound_card": {
                                                       "type": "string"
+                                                    },
+                                                    "additional_notes": {
+                                                      "type": "string"
                                                     }
                                                   }
                                                 },
@@ -6704,6 +6779,9 @@
                                                       "type": "string"
                                                     },
                                                     "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -6733,6 +6811,9 @@
                                                       "type": "string"
                                                     },
                                                     "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -6766,6 +6847,12 @@
                                                     },
                                                     "additional_notes": {
                                                       "type": "string"
+                                                    },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "Bit64": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 },
@@ -6778,11 +6865,32 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "system": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
-                                                    "graphic_card": {
+                                                    "graphics": {
                                                       "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "directx": {
+                                                      "type": "string"
+                                                    },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
+                                                      "type": "string"
+                                                    },
+                                                    "bit64": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 }
@@ -8581,6 +8689,9 @@
                                                     },
                                                     "sound_card": {
                                                       "type": "string"
+                                                    },
+                                                    "additional_notes": {
+                                                      "type": "string"
                                                     }
                                                   }
                                                 },
@@ -8606,6 +8717,9 @@
                                                       "type": "string"
                                                     },
                                                     "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -8635,6 +8749,9 @@
                                                       "type": "string"
                                                     },
                                                     "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -8668,6 +8785,12 @@
                                                     },
                                                     "additional_notes": {
                                                       "type": "string"
+                                                    },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "Bit64": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 },
@@ -8680,11 +8803,32 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "system": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
-                                                    "graphic_card": {
+                                                    "graphics": {
                                                       "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "directx": {
+                                                      "type": "string"
+                                                    },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
+                                                      "type": "string"
+                                                    },
+                                                    "bit64": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 }
@@ -9144,6 +9288,9 @@
           },
           "sound_card": {
             "type": "string"
+          },
+          "additional_notes": {
+            "type": "string"
           }
         }
       },
@@ -9169,6 +9316,9 @@
             "type": "string"
           },
           "storage": {
+            "type": "string"
+          },
+          "additional_notes": {
             "type": "string"
           }
         }
@@ -9198,6 +9348,9 @@
             "type": "string"
           },
           "storage": {
+            "type": "string"
+          },
+          "additional_notes": {
             "type": "string"
           }
         }
@@ -9231,6 +9384,12 @@
           },
           "additional_notes": {
             "type": "string"
+          },
+          "network": {
+            "type": "string"
+          },
+          "Bit64": {
+            "type": "boolean"
           }
         }
       },
@@ -9243,11 +9402,32 @@
           "__component": {
             "type": "string"
           },
-          "system": {
+          "operation_system": {
             "type": "string"
           },
-          "graphic_card": {
+          "graphics": {
             "type": "string"
+          },
+          "processor": {
+            "type": "string"
+          },
+          "memory": {
+            "type": "string"
+          },
+          "directx": {
+            "type": "string"
+          },
+          "network": {
+            "type": "string"
+          },
+          "storage": {
+            "type": "string"
+          },
+          "additional_notes": {
+            "type": "string"
+          },
+          "bit64": {
+            "type": "boolean"
           }
         }
       },
@@ -10325,6 +10505,9 @@
                                       },
                                       "sound_card": {
                                         "type": "string"
+                                      },
+                                      "additional_notes": {
+                                        "type": "string"
                                       }
                                     }
                                   },
@@ -10350,6 +10533,9 @@
                                         "type": "string"
                                       },
                                       "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -10379,6 +10565,9 @@
                                         "type": "string"
                                       },
                                       "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -10412,6 +10601,12 @@
                                       },
                                       "additional_notes": {
                                         "type": "string"
+                                      },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "Bit64": {
+                                        "type": "boolean"
                                       }
                                     }
                                   },
@@ -10424,11 +10619,32 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
-                                      "graphic_card": {
+                                      "graphics": {
                                         "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
+                                        "type": "string"
+                                      },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
+                                        "type": "boolean"
                                       }
                                     }
                                   }
@@ -11570,6 +11786,9 @@
                                       },
                                       "sound_card": {
                                         "type": "string"
+                                      },
+                                      "additional_notes": {
+                                        "type": "string"
                                       }
                                     }
                                   },
@@ -11595,6 +11814,9 @@
                                         "type": "string"
                                       },
                                       "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -11624,6 +11846,9 @@
                                         "type": "string"
                                       },
                                       "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -11657,6 +11882,12 @@
                                       },
                                       "additional_notes": {
                                         "type": "string"
+                                      },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "Bit64": {
+                                        "type": "boolean"
                                       }
                                     }
                                   },
@@ -11669,11 +11900,32 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
-                                      "graphic_card": {
+                                      "graphics": {
                                         "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
+                                        "type": "string"
+                                      },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
+                                        "type": "boolean"
                                       }
                                     }
                                   }
@@ -12848,6 +13100,9 @@
                                       },
                                       "sound_card": {
                                         "type": "string"
+                                      },
+                                      "additional_notes": {
+                                        "type": "string"
                                       }
                                     }
                                   },
@@ -12873,6 +13128,9 @@
                                         "type": "string"
                                       },
                                       "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -12902,6 +13160,9 @@
                                         "type": "string"
                                       },
                                       "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -12935,6 +13196,12 @@
                                       },
                                       "additional_notes": {
                                         "type": "string"
+                                      },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "Bit64": {
+                                        "type": "boolean"
                                       }
                                     }
                                   },
@@ -12947,11 +13214,32 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
-                                      "graphic_card": {
+                                      "graphics": {
                                         "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
+                                        "type": "string"
+                                      },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
+                                        "type": "boolean"
                                       }
                                     }
                                   }
@@ -14093,6 +14381,9 @@
                                       },
                                       "sound_card": {
                                         "type": "string"
+                                      },
+                                      "additional_notes": {
+                                        "type": "string"
                                       }
                                     }
                                   },
@@ -14118,6 +14409,9 @@
                                         "type": "string"
                                       },
                                       "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -14147,6 +14441,9 @@
                                         "type": "string"
                                       },
                                       "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -14180,6 +14477,12 @@
                                       },
                                       "additional_notes": {
                                         "type": "string"
+                                      },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "Bit64": {
+                                        "type": "boolean"
                                       }
                                     }
                                   },
@@ -14192,11 +14495,32 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
-                                      "graphic_card": {
+                                      "graphics": {
                                         "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
+                                        "type": "string"
+                                      },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
+                                        "type": "boolean"
                                       }
                                     }
                                   }

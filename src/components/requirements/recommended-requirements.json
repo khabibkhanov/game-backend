@@ -6,11 +6,39 @@
   },
   "options": {},
   "attributes": {
-    "system": {
+    "operation_system": {
+      "type": "string",
+      "default": "null"
+    },
+    "graphics": {
+      "type": "string",
+      "default": "null"
+    },
+    "processor": {
+      "type": "string",
+      "default": "null"
+    },
+    "memory": {
+      "type": "string",
+      "default": "null"
+    },
+    "directx": {
+      "type": "string",
+      "default": "null"
+    },
+    "network": {
       "type": "string"
     },
-    "graphic_card": {
+    "storage": {
       "type": "string"
+    },
+    "additional_notes": {
+      "type": "string",
+      "default": "null"
+    },
+    "bit64": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
