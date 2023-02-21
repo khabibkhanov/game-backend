@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-02-21T06:18:09.142Z"
+    "x-generation-date": "2023-02-21T08:38:31.436Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2645,6 +2645,8 @@
                                 }
                               }
                             },
+                            "available_countries": {},
+                            "features": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5254,6 +5256,8 @@
                                 }
                               }
                             },
+                            "available_countries": {},
+                            "features": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7896,6 +7900,8 @@
                                 }
                               }
                             },
+                            "available_countries": {},
+                            "features": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -10505,6 +10511,8 @@
                                 }
                               }
                             },
+                            "available_countries": {},
+                            "features": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -10703,7 +10711,9 @@
                   }
                 ],
                 "example": "string or id"
-              }
+              },
+              "available_countries": {},
+              "features": {}
             }
           }
         }
@@ -13187,6 +13197,8 @@
                                               }
                                             }
                                           },
+                                          "available_countries": {},
+                                          "features": {},
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -13324,6 +13336,8 @@
                   }
                 }
               },
+              "available_countries": {},
+              "features": {},
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -15849,6 +15863,8 @@
                                               }
                                             }
                                           },
+                                          "available_countries": {},
+                                          "features": {},
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -15986,6 +16002,8 @@
                   }
                 }
               },
+              "available_countries": {},
+              "features": {},
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -18544,6 +18562,8 @@
                                               }
                                             }
                                           },
+                                          "available_countries": {},
+                                          "features": {},
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -18681,6 +18701,8 @@
                   }
                 }
               },
+              "available_countries": {},
+              "features": {},
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -21206,6 +21228,8 @@
                                               }
                                             }
                                           },
+                                          "available_countries": {},
+                                          "features": {},
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -21343,6 +21367,8 @@
                   }
                 }
               },
+              "available_countries": {},
+              "features": {},
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -23495,6 +23521,8 @@
                                 }
                               }
                             },
+                            "available_countries": {},
+                            "features": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -25483,6 +25511,8 @@
                                 }
                               }
                             },
+                            "available_countries": {},
+                            "features": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -27504,6 +27534,8 @@
                                 }
                               }
                             },
+                            "available_countries": {},
+                            "features": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -29492,6 +29524,8 @@
                                 }
                               }
                             },
+                            "available_countries": {},
+                            "features": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"

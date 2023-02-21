@@ -78,6 +78,14 @@
       "relation": "manyToOne",
       "target": "api::age-rating.age-rating",
       "inversedBy": "games"
+    },
+    "available_countries": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "features": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }
