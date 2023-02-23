@@ -8,25 +8,29 @@
   "attributes": {
     "operation_system": {
       "type": "string",
-      "default": "null"
+      "default": "null",
+      "required": false
     },
     "processor": {
       "type": "string",
-      "default": "null"
+      "default": "null",
+      "required": false
     },
     "memory": {
       "type": "string",
+      "required": false,
       "default": "null"
     },
     "graphics": {
       "type": "string",
+      "required": false,
       "default": "null"
     },
-    "storage": {
+    "DirectX": {
       "type": "string",
       "default": "null"
     },
-    "sound_card": {
+    "storage": {
       "type": "string",
       "required": false,
       "default": "null"
@@ -34,6 +38,9 @@
     "additional_notes": {
       "type": "string",
       "default": "null"
-    }
-  }
+    },
+    "sound_card": {
+      "type": "string",
+      "default": "null"
+    }  }
 }

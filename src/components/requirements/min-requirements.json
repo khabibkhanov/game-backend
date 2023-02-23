@@ -2,11 +2,11 @@
   "collectionName": "components_minimal_min_requirements",
   "info": {
     "displayName": "minimum",
-    "description": ""
+    "description": "Eng minimum talablar"
   },
   "options": {},
   "attributes": {
-    "system": {
+    "operation_system": {
       "type": "string",
       "default": "null"
     },
@@ -14,11 +14,11 @@
       "type": "string",
       "default": "null"
     },
-    "memory": {
+    "processor": {
       "type": "string",
       "default": "null"
     },
-    "processor": {
+    "memory": {
       "type": "string",
       "default": "null"
     },
@@ -26,7 +26,15 @@
       "type": "string",
       "default": "null"
     },
+    "network": {
+      "type": "string",
+      "default": "null"
+    },
     "storage": {
+      "type": "string",
+      "default": "null"
+    },
+    "sound_card": {
       "type": "string",
       "default": "null"
     },
@@ -34,11 +42,7 @@
       "type": "string",
       "default": "null"
     },
-    "network": {
-      "type": "string",
-      "default": "null"
-    },
-    "Bit64": {
+    "bit64": {
       "type": "boolean",
       "default": true
     }
