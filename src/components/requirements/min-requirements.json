@@ -6,15 +6,11 @@
   },
   "options": {},
   "attributes": {
-    "system": {
+    "heading": {
       "type": "string",
-      "default": "null"
+      "default": "Eng minimal talablar"
     },
-    "graphics": {
-      "type": "string",
-      "default": "null"
-    },
-    "memory": {
+    "operation_system": {
       "type": "string",
       "default": "null"
     },
@@ -22,7 +18,11 @@
       "type": "string",
       "default": "null"
     },
-    "directx": {
+    "memory": {
+      "type": "string",
+      "default": "null"
+    },
+    "graphics": {
       "type": "string",
       "default": "null"
     },
@@ -30,7 +30,11 @@
       "type": "string",
       "default": "null"
     },
-    "additional_notes": {
+    "sound_card": {
+      "type": "string",
+      "default": "null"
+    },
+    "directx": {
       "type": "string",
       "default": "null"
     },
@@ -38,7 +42,11 @@
       "type": "string",
       "default": "null"
     },
-    "Bit64": {
+    "additional_notes": {
+      "type": "string",
+      "default": "null"
+    },
+    "bit64": {
       "type": "boolean",
       "default": true
     }

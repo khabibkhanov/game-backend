@@ -6,11 +6,11 @@
   },
   "options": {},
   "attributes": {
-    "operation_system": {
+    "heading": {
       "type": "string",
-      "default": "null"
+      "default": "Tavsiya qilinadigan talablar"
     },
-    "graphics": {
+    "operation_system": {
       "type": "string",
       "default": "null"
     },
@@ -22,15 +22,25 @@
       "type": "string",
       "default": "null"
     },
+    "graphics": {
+      "type": "string",
+      "default": "null"
+    },
+    "storage": {
+      "type": "string",
+      "default": "null"
+    },
+    "sound_card": {
+      "type": "string",
+      "default": "null"
+    },
     "directx": {
       "type": "string",
       "default": "null"
     },
     "network": {
-      "type": "string"
-    },
-    "storage": {
-      "type": "string"
+      "type": "string",
+      "default": "null"
     },
     "additional_notes": {
       "type": "string",

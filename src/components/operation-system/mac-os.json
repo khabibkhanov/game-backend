@@ -6,9 +6,12 @@
   },
   "options": {},
   "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "MacOs"
+    },
     "operation_system": {
       "type": "string",
-      "required": false,
       "default": "null"
     },
     "processor": {
@@ -27,11 +30,19 @@
       "type": "string",
       "default": "null"
     },
-    "additional_notes": {
+    "network": {
+      "type": "string",
+      "default": "null"
+    },
+    "directX": {
       "type": "string",
       "default": "null"
     },
     "sound_card": {
+      "type": "string",
+      "default": "null"
+    },
+    "additional_notes": {
       "type": "string",
       "default": "null"
     }

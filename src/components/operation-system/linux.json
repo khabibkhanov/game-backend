@@ -6,6 +6,10 @@
   },
   "options": {},
   "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Linux"
+    },
     "operation_system": {
       "type": "string",
       "default": "null"
@@ -26,14 +30,22 @@
       "type": "string",
       "default": "null"
     },
+    "network": {
+      "type": "string",
+      "default": "null"
+    },
+    "directX": {
+      "type": "string",
+      "default": "null"
+    },
     "sound_card": {
       "type": "string",
-      "required": false,
       "default": "null"
     },
     "additional_notes": {
       "type": "string",
       "default": "null"
     }
+
   }
 }

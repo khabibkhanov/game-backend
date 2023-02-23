@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-02-23T10:11:41.823Z"
+    "x-generation-date": "2023-02-23T10:22:28.750Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1775,36 +1775,7 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
-                                        "type": "string"
-                                      },
-                                      "processor": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
-                                        "type": "string"
-                                      },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
-                                        "type": "string"
-                                      },
-                                      "sound_card": {
-                                        "type": "string"
-                                      },
-                                      "additional_notes": {
-                                        "type": "string"
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "__component": {
+                                      "heading": {
                                         "type": "string"
                                       },
                                       "operation_system": {
@@ -1822,10 +1793,16 @@
                                       "storage": {
                                         "type": "string"
                                       },
-                                      "additional_notes": {
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
                                         "type": "string"
                                       },
                                       "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -1880,31 +1857,78 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
                                         "type": "string"
                                       },
-                                      "directx": {
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
                                         "type": "string"
                                       },
                                       "storage": {
                                         "type": "string"
                                       },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "additional_notes": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "heading": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
                                         "type": "string"
                                       },
                                       "network": {
                                         "type": "string"
                                       },
-                                      "Bit64": {
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
                                         "type": "boolean"
                                       }
                                     }
@@ -1918,10 +1942,10 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
@@ -1930,13 +1954,19 @@
                                       "memory": {
                                         "type": "string"
                                       },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "directx": {
                                         "type": "string"
                                       },
                                       "network": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
                                         "type": "string"
                                       },
                                       "additional_notes": {
@@ -4396,36 +4426,7 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
-                                        "type": "string"
-                                      },
-                                      "processor": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
-                                        "type": "string"
-                                      },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
-                                        "type": "string"
-                                      },
-                                      "sound_card": {
-                                        "type": "string"
-                                      },
-                                      "additional_notes": {
-                                        "type": "string"
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "__component": {
+                                      "heading": {
                                         "type": "string"
                                       },
                                       "operation_system": {
@@ -4443,10 +4444,16 @@
                                       "storage": {
                                         "type": "string"
                                       },
-                                      "additional_notes": {
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
                                         "type": "string"
                                       },
                                       "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -4501,31 +4508,78 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
                                         "type": "string"
                                       },
-                                      "directx": {
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
                                         "type": "string"
                                       },
                                       "storage": {
                                         "type": "string"
                                       },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "additional_notes": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "heading": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
                                         "type": "string"
                                       },
                                       "network": {
                                         "type": "string"
                                       },
-                                      "Bit64": {
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
                                         "type": "boolean"
                                       }
                                     }
@@ -4539,10 +4593,10 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
@@ -4551,13 +4605,19 @@
                                       "memory": {
                                         "type": "string"
                                       },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "directx": {
                                         "type": "string"
                                       },
                                       "network": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
                                         "type": "string"
                                       },
                                       "additional_notes": {
@@ -7050,36 +7110,7 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
-                                        "type": "string"
-                                      },
-                                      "processor": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
-                                        "type": "string"
-                                      },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
-                                        "type": "string"
-                                      },
-                                      "sound_card": {
-                                        "type": "string"
-                                      },
-                                      "additional_notes": {
-                                        "type": "string"
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "__component": {
+                                      "heading": {
                                         "type": "string"
                                       },
                                       "operation_system": {
@@ -7097,10 +7128,16 @@
                                       "storage": {
                                         "type": "string"
                                       },
-                                      "additional_notes": {
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
                                         "type": "string"
                                       },
                                       "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -7155,31 +7192,78 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
                                         "type": "string"
                                       },
-                                      "directx": {
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
                                         "type": "string"
                                       },
                                       "storage": {
                                         "type": "string"
                                       },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "additional_notes": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "heading": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
                                         "type": "string"
                                       },
                                       "network": {
                                         "type": "string"
                                       },
-                                      "Bit64": {
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
                                         "type": "boolean"
                                       }
                                     }
@@ -7193,10 +7277,10 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
@@ -7205,13 +7289,19 @@
                                       "memory": {
                                         "type": "string"
                                       },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "directx": {
                                         "type": "string"
                                       },
                                       "network": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
                                         "type": "string"
                                       },
                                       "additional_notes": {
@@ -9671,36 +9761,7 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
-                                        "type": "string"
-                                      },
-                                      "processor": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
-                                        "type": "string"
-                                      },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
-                                        "type": "string"
-                                      },
-                                      "sound_card": {
-                                        "type": "string"
-                                      },
-                                      "additional_notes": {
-                                        "type": "string"
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "__component": {
+                                      "heading": {
                                         "type": "string"
                                       },
                                       "operation_system": {
@@ -9718,10 +9779,16 @@
                                       "storage": {
                                         "type": "string"
                                       },
-                                      "additional_notes": {
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
                                         "type": "string"
                                       },
                                       "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -9776,31 +9843,78 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
                                         "type": "string"
                                       },
-                                      "directx": {
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
                                         "type": "string"
                                       },
                                       "storage": {
                                         "type": "string"
                                       },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "additional_notes": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "heading": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
                                         "type": "string"
                                       },
                                       "network": {
                                         "type": "string"
                                       },
-                                      "Bit64": {
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
                                         "type": "boolean"
                                       }
                                     }
@@ -9814,10 +9928,10 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
@@ -9826,13 +9940,19 @@
                                       "memory": {
                                         "type": "string"
                                       },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "directx": {
                                         "type": "string"
                                       },
                                       "network": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
                                         "type": "string"
                                       },
                                       "additional_notes": {
@@ -12114,36 +12234,7 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "operation_system": {
-                                                      "type": "string"
-                                                    },
-                                                    "processor": {
-                                                      "type": "string"
-                                                    },
-                                                    "memory": {
-                                                      "type": "string"
-                                                    },
-                                                    "graphics": {
-                                                      "type": "string"
-                                                    },
-                                                    "storage": {
-                                                      "type": "string"
-                                                    },
-                                                    "sound_card": {
-                                                      "type": "string"
-                                                    },
-                                                    "additional_notes": {
-                                                      "type": "string"
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "__component": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
                                                     "operation_system": {
@@ -12161,10 +12252,16 @@
                                                     "storage": {
                                                       "type": "string"
                                                     },
-                                                    "additional_notes": {
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "directX": {
                                                       "type": "string"
                                                     },
                                                     "sound_card": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -12219,31 +12316,78 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "system": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
-                                                    "graphics": {
-                                                      "type": "string"
-                                                    },
-                                                    "memory": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
                                                     "processor": {
                                                       "type": "string"
                                                     },
-                                                    "directx": {
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
                                                       "type": "string"
                                                     },
                                                     "storage": {
                                                       "type": "string"
                                                     },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "directX": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
                                                     "additional_notes": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "heading": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
+                                                    "directx": {
                                                       "type": "string"
                                                     },
                                                     "network": {
                                                       "type": "string"
                                                     },
-                                                    "Bit64": {
+                                                    "additional_notes": {
+                                                      "type": "string"
+                                                    },
+                                                    "bit64": {
                                                       "type": "boolean"
                                                     }
                                                   }
@@ -12257,10 +12401,10 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "operation_system": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
-                                                    "graphics": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
                                                     "processor": {
@@ -12269,13 +12413,19 @@
                                                     "memory": {
                                                       "type": "string"
                                                     },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
                                                     "directx": {
                                                       "type": "string"
                                                     },
                                                     "network": {
-                                                      "type": "string"
-                                                    },
-                                                    "storage": {
                                                       "type": "string"
                                                     },
                                                     "additional_notes": {
@@ -14788,36 +14938,7 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "operation_system": {
-                                                      "type": "string"
-                                                    },
-                                                    "processor": {
-                                                      "type": "string"
-                                                    },
-                                                    "memory": {
-                                                      "type": "string"
-                                                    },
-                                                    "graphics": {
-                                                      "type": "string"
-                                                    },
-                                                    "storage": {
-                                                      "type": "string"
-                                                    },
-                                                    "sound_card": {
-                                                      "type": "string"
-                                                    },
-                                                    "additional_notes": {
-                                                      "type": "string"
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "__component": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
                                                     "operation_system": {
@@ -14835,10 +14956,16 @@
                                                     "storage": {
                                                       "type": "string"
                                                     },
-                                                    "additional_notes": {
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "directX": {
                                                       "type": "string"
                                                     },
                                                     "sound_card": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -14893,31 +15020,78 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "system": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
-                                                    "graphics": {
-                                                      "type": "string"
-                                                    },
-                                                    "memory": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
                                                     "processor": {
                                                       "type": "string"
                                                     },
-                                                    "directx": {
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
                                                       "type": "string"
                                                     },
                                                     "storage": {
                                                       "type": "string"
                                                     },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "directX": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
                                                     "additional_notes": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "heading": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
+                                                    "directx": {
                                                       "type": "string"
                                                     },
                                                     "network": {
                                                       "type": "string"
                                                     },
-                                                    "Bit64": {
+                                                    "additional_notes": {
+                                                      "type": "string"
+                                                    },
+                                                    "bit64": {
                                                       "type": "boolean"
                                                     }
                                                   }
@@ -14931,10 +15105,10 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "operation_system": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
-                                                    "graphics": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
                                                     "processor": {
@@ -14943,13 +15117,19 @@
                                                     "memory": {
                                                       "type": "string"
                                                     },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
                                                     "directx": {
                                                       "type": "string"
                                                     },
                                                     "network": {
-                                                      "type": "string"
-                                                    },
-                                                    "storage": {
                                                       "type": "string"
                                                     },
                                                     "additional_notes": {
@@ -17495,36 +17675,7 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "operation_system": {
-                                                      "type": "string"
-                                                    },
-                                                    "processor": {
-                                                      "type": "string"
-                                                    },
-                                                    "memory": {
-                                                      "type": "string"
-                                                    },
-                                                    "graphics": {
-                                                      "type": "string"
-                                                    },
-                                                    "storage": {
-                                                      "type": "string"
-                                                    },
-                                                    "sound_card": {
-                                                      "type": "string"
-                                                    },
-                                                    "additional_notes": {
-                                                      "type": "string"
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "__component": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
                                                     "operation_system": {
@@ -17542,10 +17693,16 @@
                                                     "storage": {
                                                       "type": "string"
                                                     },
-                                                    "additional_notes": {
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "directX": {
                                                       "type": "string"
                                                     },
                                                     "sound_card": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -17600,31 +17757,78 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "system": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
-                                                    "graphics": {
-                                                      "type": "string"
-                                                    },
-                                                    "memory": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
                                                     "processor": {
                                                       "type": "string"
                                                     },
-                                                    "directx": {
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
                                                       "type": "string"
                                                     },
                                                     "storage": {
                                                       "type": "string"
                                                     },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "directX": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
                                                     "additional_notes": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "heading": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
+                                                    "directx": {
                                                       "type": "string"
                                                     },
                                                     "network": {
                                                       "type": "string"
                                                     },
-                                                    "Bit64": {
+                                                    "additional_notes": {
+                                                      "type": "string"
+                                                    },
+                                                    "bit64": {
                                                       "type": "boolean"
                                                     }
                                                   }
@@ -17638,10 +17842,10 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "operation_system": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
-                                                    "graphics": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
                                                     "processor": {
@@ -17650,13 +17854,19 @@
                                                     "memory": {
                                                       "type": "string"
                                                     },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
                                                     "directx": {
                                                       "type": "string"
                                                     },
                                                     "network": {
-                                                      "type": "string"
-                                                    },
-                                                    "storage": {
                                                       "type": "string"
                                                     },
                                                     "additional_notes": {
@@ -20169,36 +20379,7 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "operation_system": {
-                                                      "type": "string"
-                                                    },
-                                                    "processor": {
-                                                      "type": "string"
-                                                    },
-                                                    "memory": {
-                                                      "type": "string"
-                                                    },
-                                                    "graphics": {
-                                                      "type": "string"
-                                                    },
-                                                    "storage": {
-                                                      "type": "string"
-                                                    },
-                                                    "sound_card": {
-                                                      "type": "string"
-                                                    },
-                                                    "additional_notes": {
-                                                      "type": "string"
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "__component": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
                                                     "operation_system": {
@@ -20216,10 +20397,16 @@
                                                     "storage": {
                                                       "type": "string"
                                                     },
-                                                    "additional_notes": {
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "directX": {
                                                       "type": "string"
                                                     },
                                                     "sound_card": {
+                                                      "type": "string"
+                                                    },
+                                                    "additional_notes": {
                                                       "type": "string"
                                                     }
                                                   }
@@ -20274,31 +20461,78 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "system": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
-                                                    "graphics": {
-                                                      "type": "string"
-                                                    },
-                                                    "memory": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
                                                     "processor": {
                                                       "type": "string"
                                                     },
-                                                    "directx": {
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
                                                       "type": "string"
                                                     },
                                                     "storage": {
                                                       "type": "string"
                                                     },
+                                                    "network": {
+                                                      "type": "string"
+                                                    },
+                                                    "directX": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
                                                     "additional_notes": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "__component": {
+                                                      "type": "string"
+                                                    },
+                                                    "heading": {
+                                                      "type": "string"
+                                                    },
+                                                    "operation_system": {
+                                                      "type": "string"
+                                                    },
+                                                    "processor": {
+                                                      "type": "string"
+                                                    },
+                                                    "memory": {
+                                                      "type": "string"
+                                                    },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
+                                                    "directx": {
                                                       "type": "string"
                                                     },
                                                     "network": {
                                                       "type": "string"
                                                     },
-                                                    "Bit64": {
+                                                    "additional_notes": {
+                                                      "type": "string"
+                                                    },
+                                                    "bit64": {
                                                       "type": "boolean"
                                                     }
                                                   }
@@ -20312,10 +20546,10 @@
                                                     "__component": {
                                                       "type": "string"
                                                     },
-                                                    "operation_system": {
+                                                    "heading": {
                                                       "type": "string"
                                                     },
-                                                    "graphics": {
+                                                    "operation_system": {
                                                       "type": "string"
                                                     },
                                                     "processor": {
@@ -20324,13 +20558,19 @@
                                                     "memory": {
                                                       "type": "string"
                                                     },
+                                                    "graphics": {
+                                                      "type": "string"
+                                                    },
+                                                    "storage": {
+                                                      "type": "string"
+                                                    },
+                                                    "sound_card": {
+                                                      "type": "string"
+                                                    },
                                                     "directx": {
                                                       "type": "string"
                                                     },
                                                     "network": {
-                                                      "type": "string"
-                                                    },
-                                                    "storage": {
                                                       "type": "string"
                                                     },
                                                     "additional_notes": {
@@ -21504,6 +21744,9 @@
           "__component": {
             "type": "string"
           },
+          "heading": {
+            "type": "string"
+          },
           "operation_system": {
             "type": "string"
           },
@@ -21517,6 +21760,12 @@
             "type": "string"
           },
           "storage": {
+            "type": "string"
+          },
+          "network": {
+            "type": "string"
+          },
+          "directX": {
             "type": "string"
           },
           "sound_card": {
@@ -21536,6 +21785,9 @@
           "__component": {
             "type": "string"
           },
+          "heading": {
+            "type": "string"
+          },
           "operation_system": {
             "type": "string"
           },
@@ -21551,10 +21803,16 @@
           "storage": {
             "type": "string"
           },
-          "additional_notes": {
+          "network": {
+            "type": "string"
+          },
+          "directX": {
             "type": "string"
           },
           "sound_card": {
+            "type": "string"
+          },
+          "additional_notes": {
             "type": "string"
           }
         }
@@ -21609,31 +21867,37 @@
           "__component": {
             "type": "string"
           },
-          "system": {
+          "heading": {
             "type": "string"
           },
-          "graphics": {
-            "type": "string"
-          },
-          "memory": {
+          "operation_system": {
             "type": "string"
           },
           "processor": {
             "type": "string"
           },
-          "directx": {
+          "memory": {
+            "type": "string"
+          },
+          "graphics": {
             "type": "string"
           },
           "storage": {
             "type": "string"
           },
-          "additional_notes": {
+          "sound_card": {
+            "type": "string"
+          },
+          "directx": {
             "type": "string"
           },
           "network": {
             "type": "string"
           },
-          "Bit64": {
+          "additional_notes": {
+            "type": "string"
+          },
+          "bit64": {
             "type": "boolean"
           }
         }
@@ -21647,10 +21911,10 @@
           "__component": {
             "type": "string"
           },
-          "operation_system": {
+          "heading": {
             "type": "string"
           },
-          "graphics": {
+          "operation_system": {
             "type": "string"
           },
           "processor": {
@@ -21659,13 +21923,19 @@
           "memory": {
             "type": "string"
           },
+          "graphics": {
+            "type": "string"
+          },
+          "storage": {
+            "type": "string"
+          },
+          "sound_card": {
+            "type": "string"
+          },
           "directx": {
             "type": "string"
           },
           "network": {
-            "type": "string"
-          },
-          "storage": {
             "type": "string"
           },
           "additional_notes": {
@@ -22733,36 +23003,7 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
-                                        "type": "string"
-                                      },
-                                      "processor": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
-                                        "type": "string"
-                                      },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
-                                        "type": "string"
-                                      },
-                                      "sound_card": {
-                                        "type": "string"
-                                      },
-                                      "additional_notes": {
-                                        "type": "string"
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "__component": {
+                                      "heading": {
                                         "type": "string"
                                       },
                                       "operation_system": {
@@ -22780,10 +23021,16 @@
                                       "storage": {
                                         "type": "string"
                                       },
-                                      "additional_notes": {
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
                                         "type": "string"
                                       },
                                       "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -22838,31 +23085,78 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
                                         "type": "string"
                                       },
-                                      "directx": {
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
                                         "type": "string"
                                       },
                                       "storage": {
                                         "type": "string"
                                       },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "additional_notes": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "heading": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
                                         "type": "string"
                                       },
                                       "network": {
                                         "type": "string"
                                       },
-                                      "Bit64": {
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
                                         "type": "boolean"
                                       }
                                     }
@@ -22876,10 +23170,10 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
@@ -22888,13 +23182,19 @@
                                       "memory": {
                                         "type": "string"
                                       },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "directx": {
                                         "type": "string"
                                       },
                                       "network": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
                                         "type": "string"
                                       },
                                       "additional_notes": {
@@ -24733,36 +25033,7 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
-                                        "type": "string"
-                                      },
-                                      "processor": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
-                                        "type": "string"
-                                      },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
-                                        "type": "string"
-                                      },
-                                      "sound_card": {
-                                        "type": "string"
-                                      },
-                                      "additional_notes": {
-                                        "type": "string"
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "__component": {
+                                      "heading": {
                                         "type": "string"
                                       },
                                       "operation_system": {
@@ -24780,10 +25051,16 @@
                                       "storage": {
                                         "type": "string"
                                       },
-                                      "additional_notes": {
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
                                         "type": "string"
                                       },
                                       "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -24838,31 +25115,78 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
                                         "type": "string"
                                       },
-                                      "directx": {
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
                                         "type": "string"
                                       },
                                       "storage": {
                                         "type": "string"
                                       },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "additional_notes": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "heading": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
                                         "type": "string"
                                       },
                                       "network": {
                                         "type": "string"
                                       },
-                                      "Bit64": {
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
                                         "type": "boolean"
                                       }
                                     }
@@ -24876,10 +25200,10 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
@@ -24888,13 +25212,19 @@
                                       "memory": {
                                         "type": "string"
                                       },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "directx": {
                                         "type": "string"
                                       },
                                       "network": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
                                         "type": "string"
                                       },
                                       "additional_notes": {
@@ -26766,36 +27096,7 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
-                                        "type": "string"
-                                      },
-                                      "processor": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
-                                        "type": "string"
-                                      },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
-                                        "type": "string"
-                                      },
-                                      "sound_card": {
-                                        "type": "string"
-                                      },
-                                      "additional_notes": {
-                                        "type": "string"
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "__component": {
+                                      "heading": {
                                         "type": "string"
                                       },
                                       "operation_system": {
@@ -26813,10 +27114,16 @@
                                       "storage": {
                                         "type": "string"
                                       },
-                                      "additional_notes": {
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
                                         "type": "string"
                                       },
                                       "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -26871,31 +27178,78 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
                                         "type": "string"
                                       },
-                                      "directx": {
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
                                         "type": "string"
                                       },
                                       "storage": {
                                         "type": "string"
                                       },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "additional_notes": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "heading": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
                                         "type": "string"
                                       },
                                       "network": {
                                         "type": "string"
                                       },
-                                      "Bit64": {
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
                                         "type": "boolean"
                                       }
                                     }
@@ -26909,10 +27263,10 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
@@ -26921,13 +27275,19 @@
                                       "memory": {
                                         "type": "string"
                                       },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "directx": {
                                         "type": "string"
                                       },
                                       "network": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
                                         "type": "string"
                                       },
                                       "additional_notes": {
@@ -28766,36 +29126,7 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
-                                        "type": "string"
-                                      },
-                                      "processor": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
-                                        "type": "string"
-                                      },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
-                                        "type": "string"
-                                      },
-                                      "sound_card": {
-                                        "type": "string"
-                                      },
-                                      "additional_notes": {
-                                        "type": "string"
-                                      }
-                                    }
-                                  },
-                                  {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "__component": {
+                                      "heading": {
                                         "type": "string"
                                       },
                                       "operation_system": {
@@ -28813,10 +29144,16 @@
                                       "storage": {
                                         "type": "string"
                                       },
-                                      "additional_notes": {
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
                                         "type": "string"
                                       },
                                       "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "additional_notes": {
                                         "type": "string"
                                       }
                                     }
@@ -28871,31 +29208,78 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
-                                        "type": "string"
-                                      },
-                                      "memory": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
                                         "type": "string"
                                       },
-                                      "directx": {
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
                                         "type": "string"
                                       },
                                       "storage": {
                                         "type": "string"
                                       },
+                                      "network": {
+                                        "type": "string"
+                                      },
+                                      "directX": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "additional_notes": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "__component": {
+                                        "type": "string"
+                                      },
+                                      "heading": {
+                                        "type": "string"
+                                      },
+                                      "operation_system": {
+                                        "type": "string"
+                                      },
+                                      "processor": {
+                                        "type": "string"
+                                      },
+                                      "memory": {
+                                        "type": "string"
+                                      },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
+                                      "directx": {
                                         "type": "string"
                                       },
                                       "network": {
                                         "type": "string"
                                       },
-                                      "Bit64": {
+                                      "additional_notes": {
+                                        "type": "string"
+                                      },
+                                      "bit64": {
                                         "type": "boolean"
                                       }
                                     }
@@ -28909,10 +29293,10 @@
                                       "__component": {
                                         "type": "string"
                                       },
-                                      "operation_system": {
+                                      "heading": {
                                         "type": "string"
                                       },
-                                      "graphics": {
+                                      "operation_system": {
                                         "type": "string"
                                       },
                                       "processor": {
@@ -28921,13 +29305,19 @@
                                       "memory": {
                                         "type": "string"
                                       },
+                                      "graphics": {
+                                        "type": "string"
+                                      },
+                                      "storage": {
+                                        "type": "string"
+                                      },
+                                      "sound_card": {
+                                        "type": "string"
+                                      },
                                       "directx": {
                                         "type": "string"
                                       },
                                       "network": {
-                                        "type": "string"
-                                      },
-                                      "storage": {
                                         "type": "string"
                                       },
                                       "additional_notes": {
