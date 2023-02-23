@@ -94,8 +94,8 @@
         "operation-system.linux",
         "operation-system.mac-os",
         "operation-system.windows",
-        "requirements.min-requirements",
-        "requirements.recommended-requirements"
+        "requirements.minimum",
+        "requirements.recommended"
       ]
     },
     "age_rating": {

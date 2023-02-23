@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_recommended_recommended_requirements",
+  "collectionName": "components_requirements_recommendeds",
   "info": {
-    "displayName": "recommended",
-    "description": ""
+    "displayName": "Recommended"
   },
   "options": {},
   "attributes": {
@@ -43,7 +42,7 @@
       "default": "null"
     },
     "additional_notes": {
-      "type": "string",
+      "type": "text",
       "default": "null"
     },
     "bit64": {

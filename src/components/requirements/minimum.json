@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_minimal_min_requirements",
+  "collectionName": "components_requirements_minimums",
   "info": {
-    "displayName": "minimum",
+    "displayName": "Minimum",
     "description": ""
   },
   "options": {},
@@ -43,7 +43,7 @@
       "default": "null"
     },
     "additional_notes": {
-      "type": "string",
+      "type": "text",
       "default": "null"
     },
     "bit64": {

@@ -43,7 +43,7 @@
       "default": "null"
     },
     "additional_notes": {
-      "type": "string",
+      "type": "text",
       "default": "null"
     }
   }
