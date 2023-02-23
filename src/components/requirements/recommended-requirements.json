@@ -2,7 +2,7 @@
   "collectionName": "components_recommended_recommended_requirements",
   "info": {
     "displayName": "recommended",
-    "description": "tavsiya qilingan talablar"
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -27,16 +27,10 @@
       "default": "null"
     },
     "network": {
-      "type": "string",
-      "default": "null"
+      "type": "string"
     },
     "storage": {
-      "type": "string",
-      "default": "null"
-    },
-    "sound_card": {
-      "type": "string",
-      "default": "null"
+      "type": "string"
     },
     "additional_notes": {
       "type": "string",

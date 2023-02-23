@@ -38,10 +38,6 @@
     "additional_notes": {
       "type": "string",
       "default": "null"
-    },
-    "sound_card": {
-      "type": "string",
-      "default": "null"
     }
   }
 }

@@ -8,31 +8,23 @@
   "attributes": {
     "operation_system": {
       "type": "string",
-      "default": "null",
-      "required": false
+      "required": false,
+      "default": "null"
     },
     "processor": {
       "type": "string",
-      "default": "null",
-      "required": false
+      "default": "null"
     },
     "memory": {
       "type": "string",
-      "required": false,
       "default": "null"
     },
     "graphics": {
-      "type": "string",
-      "required": false,
-      "default": "null"
-    },
-    "DirectX": {
       "type": "string",
       "default": "null"
     },
     "storage": {
       "type": "string",
-      "required": false,
       "default": "null"
     },
     "additional_notes": {
