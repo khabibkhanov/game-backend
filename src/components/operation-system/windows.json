@@ -2,10 +2,14 @@
   "collectionName": "components_windows_windows",
   "info": {
     "displayName": "windows",
-    "description": ""
+    "description": "windws uchun talablar"
   },
   "options": {},
   "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "windows"
+    },
     "operation_system": {
       "type": "string",
       "default": "null",
@@ -26,13 +30,21 @@
       "required": false,
       "default": "null"
     },
-    "DirectX": {
-      "type": "string",
-      "default": "null"
-    },
     "storage": {
       "type": "string",
       "required": false,
+      "default": "null"
+    },
+    "network": {
+      "type": "string",
+      "default": "null"
+    },
+    "directX": {
+      "type": "string",
+      "default": "null"
+    },
+    "sound_card": {
+      "type": "string",
       "default": "null"
     },
     "additional_notes": {
