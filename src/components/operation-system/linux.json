@@ -10,31 +10,31 @@
       "type": "string",
       "default": "Linux"
     },
-    "operation_system": {
+    "operatsion_tizim": {
       "type": "string"
     },
-    "processor": {
+    "protsessor": {
       "type": "string"
     },
-    "memory": {
+    "tezkor_xotira": {
       "type": "string"
     },
-    "graphics": {
+    "video_karta": {
       "type": "string"
     },
-    "storage": {
+    "xotira": {
       "type": "string"
     },
-    "network": {
+    "ovoz_kartasi": {
       "type": "string"
     },
-    "directX": {
+    "directx": {
       "type": "string"
     },
-    "sound_card": {
+    "internet": {
       "type": "string"
     },
-    "additional_notes": {
+    "qo'shimcha_ma'lumotlar": {
       "type": "text"
     }
   }

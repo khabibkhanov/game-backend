@@ -10,31 +10,31 @@
       "type": "string",
       "default": "Eng minimal talablar"
     },
-    "operation_system": {
+    "operatsion_tizim": {
       "type": "string"
     },
-    "processor": {
+    "protsessor": {
       "type": "string"
     },
-    "memory": {
+    "tezkor_xotira": {
       "type": "string"
     },
-    "graphics": {
+    "video_karta": {
       "type": "string"
     },
-    "storage": {
+    "xotira": {
       "type": "string"
     },
-    "sound_card": {
+    "ovoz_kartasi": {
       "type": "string"
     },
     "directx": {
       "type": "string"
     },
-    "network": {
+    "internet": {
       "type": "string"
     },
-    "additional_notes": {
+    "qo'shimcha_ma'lumotlar": {
       "type": "text"
     },
     "bit64": {
