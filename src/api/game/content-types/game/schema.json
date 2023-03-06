@@ -103,6 +103,12 @@
       "relation": "manyToOne",
       "target": "api::age-rating.age-rating",
       "inversedBy": "games"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "games"
     }
   }
 }
