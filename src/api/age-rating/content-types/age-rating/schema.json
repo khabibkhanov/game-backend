@@ -32,6 +32,12 @@
     "img_rating_url": {
       "type": "string",
       "required": true
+    },
+    "news_genres": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::news-genre.news-genre",
+      "mappedBy": "age_ratings"
     }
   }
 }

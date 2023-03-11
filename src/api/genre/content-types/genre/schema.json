@@ -4,7 +4,7 @@
   "info": {
     "singularName": "genre",
     "pluralName": "genres",
-    "displayName": "genre",
+    "displayName": "game_genres",
     "description": ""
   },
   "options": {

@@ -77,8 +77,7 @@
         "Thai",
         "Turkish",
         "Vietnamese",
-        "Uzbek",
-        ""
+        "Uzbek"
       ],
       "customField": "plugin::multi-select.multi-select"
     },
@@ -109,6 +108,12 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "games"
+    },
+    "guides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::guide.guide",
+      "mappedBy": "game"
     }
   }
 }
