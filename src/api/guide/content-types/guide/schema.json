@@ -4,7 +4,8 @@
   "info": {
     "singularName": "guide",
     "pluralName": "guides",
-    "displayName": "guide"
+    "displayName": "guide",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,9 @@
     },
     "guide_text": {
       "type": "richtext"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

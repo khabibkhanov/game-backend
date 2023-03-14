@@ -19,10 +19,10 @@
       "type": "uid",
       "targetField": "title"
     },
-    "news_text": {
+    "reviews": {
       "type": "richtext"
     },
-    "news_pic": {
+    "game_picture": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -30,7 +30,7 @@
         "images"
       ]
     },
-    "news_category": {
+    "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::news-category.news-category",
