@@ -23,6 +23,12 @@
       "relation": "manyToMany",
       "target": "api::age-rating.age-rating",
       "inversedBy": "news_genres"
+    },
+    "news": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::new.new",
+      "mappedBy": "genres"
     }
   }
 }

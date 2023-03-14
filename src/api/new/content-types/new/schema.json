@@ -30,10 +30,10 @@
         "images"
       ]
     },
-    "category": {
+    "genres": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::news-category.news-category",
+      "relation": "manyToMany",
+      "target": "api::news-genre.news-genre",
       "inversedBy": "news"
     }
   }

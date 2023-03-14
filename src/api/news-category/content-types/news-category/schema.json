@@ -17,12 +17,6 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "news": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::new.new",
-      "mappedBy": "category"
     }
   }
 }
